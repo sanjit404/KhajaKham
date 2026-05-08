@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class StripeService {
-  static const _secretKey = ""; // test key only
+  static const _secretKey = ''; // test key only
 
   static Future<String?> createPaymentIntent(double amount) async {
     try {

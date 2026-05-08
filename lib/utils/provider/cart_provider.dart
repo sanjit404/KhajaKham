@@ -177,8 +177,7 @@ Future<void> clearCart(BuildContext context) async {
   Future<String?> _createPaymentIntent(double amountUSD) async {
     try {
       final url = Uri.parse('https://api.stripe.com/v1/payment_intents');
-      const secretKey =
-          '';
+      const secretKey = '';
 
       final response = await http.post(
         url,
