@@ -19,7 +19,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
 
-  Stripe.publishableKey = 'pk_test_51SI1L3EyK7O5YZFDdxOuAPEgU26g4dtOygkh3ASOfa0B0xfTSrxTSirHtfdYn5hipZkrNqw6UcuoYVlD5X7QwWOh00H5TFAboD';
+  Stripe.publishableKey = 'pk_test_xxxxxx';
 
   const AndroidInitializationSettings androidSettings =
       AndroidInitializationSettings('@mipmap/ic_launcher');
