@@ -178,7 +178,7 @@ Future<void> clearCart(BuildContext context) async {
     try {
       final url = Uri.parse('https://api.stripe.com/v1/payment_intents');
       const secretKey =
-          'sk_test_xxxx';
+          '';
 
       final response = await http.post(
         url,
